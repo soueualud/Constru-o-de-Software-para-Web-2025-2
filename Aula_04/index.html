@@ -32,7 +32,7 @@
     <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântico)</p>
     <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (semântica)</p>
     <h1>Texto marcador</h1>
-    <p>Aqui vamos usar um texto com destaque <mark>de marcador de texto</mark> usando mark</p>
+    <p>Aqui vamos usar um texto com destaque <mark style="background: green">de marcador de texto</mark> usando mark</p>
     <p>Aqui vamos usar um texto com destaque <mark>de marcador de texto</mark> usando mark</p>
     <h1>Texto grande e pequeno</h1>
     <p>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
@@ -42,8 +42,44 @@
     <p>Nesta frase vamos demonstrar como <ins>destacar um texto inserdo</ins> na frase de forma semântica</p>
     <p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica</p>
     <h1>Texto sobrescrito</h1>
-    <p>Vamos demonstrar uma formula da equação do segundo grau</p>
+    <p>Vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup>+bx+c=0</p>
+
     <h1>Texto subescrito</h1>
-    <p>Vamos demonstrar o texto subescrito com a formula da agua <sub>H20</sub></p>
+    <p>Vamos demonstrar o texto subescrito com a formula da agua H<sub>2</sub>O</p>
+
+    <br>
+    <br>
+    <hr>
+
+    <p> Inserindo o comando <code>document.getElementById('edtcodigo')</code> que é um comando java script</p>
+    <p>Inserindo um longo codigo me python: </p>
+    <p>
+        <p></p>
+        <pre>
+            <code> 
+                def celsius_para_fahrenheit(celsius):
+                    fahrenheit = (celsius * 9/5) + 32
+                    return fahrenheit
+            
+                # Exemplo de uso
+                c = float(input("Digite a temperatura em graus Celsius: "))
+                f = celsius_para_fahrenheit(c)
+                print(f"{c}°C é igual a {f:.2f}°F")
+            </code>
+        </pre>
+    </p>
+<h2>Citações (quotativas) simples</h2>
+<p>Segundo Steve Jobs <q>A tecnologia move o mundo</q></p>
+<h2>Citações completas (livros)</h2>
+<p>Segundo Sandra Kussunoki no seu livro a dança e o ventre: </p>
+<blockquote>
+    cite="https://www.google.com.br/books/edition/A Dan%C3%A7a e_o_Ventre _Apar%C3%AAncia corporal/vhmHBAAAQBAJ?h1=pt-BR&gbpv=18dg=html5+para+leigos&printsec=frontcover"
+    <p>Dados existentes sobre intervenções cirúrgicas nos corpos contemporâneos visando à obtenção de um
+    corpo mais próximo do padrão estético tais como lipoaspiração, próteses de silicone, entre outras, comprovam essa busca
+    obsessiva pelo ideal de perfeição, que é baseado princpalmente na magreza.</p>
+</blockquote>
+
 </body>
+
+
 </html>
