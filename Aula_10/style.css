@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(145, 148, 189);
+}
+
+h1{
+    color: white;
+    background-color: rgb(105, 192, 97);
+}
+
+h2,p{
+    color: darkred;
+}
+
+a{
+    font-size: 1cm;
+}
