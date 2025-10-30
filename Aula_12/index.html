@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 12</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#cabecalho{
+    text-align: center;
+    color: blue;
+}
+
+#cap1{
+    text-align: end;
+    color: red;
+}
+
+#cap2{
+    color: purple;
+    font-style: italic;
+}
+
+#cap2:hover{
+    color: plum;
+    font-style: normal;
+    cursor:pointer;
+}
+
+.seletor{
+    color: green;
+}
+
+.cap1class{
+    color: red;
+    text-align: end;
+}
+
+.cap2class{
+    color: purple;
+    font-style: italic;
+}
+
+.cap2class:hover{
+    color: plum;
+    font-style: normal;
+    cursor:pointer;
+}
+
+#cap1::after{
+  content: '(Texto alinhado à direita)';  
+  font-family:'Times New Roman', Times, serif;
+  color: lightgray;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.cap1class::after{
+  content: '(Texto alinhado à direita)';  
+  font-family:'Times New Roman', Times, serif;
+  color: lightgray;
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+
+</style>
+</head>
+<body>
+    
+<h1 id="cabecalho">Seletor Personalizado ID</h1>
+
+<h2 id="cap1">Capítulo 1</h2> 
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, alias. Nihil, tenetur quaerat dolorem pariatur quisquam eius iste facere! Illum debitis natus officia libero eveniet fugiat cumque inventore, totam consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere dolore commodi corporis neque architecto dicta aperiam nemo amet id sint iure nam quos deleniti eius cumque, sit delectus rerum. Quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, laborum adipisci voluptates in architecto aliquam cum iste odit saepe. Magni aspernatur repellendus necessitatibus non modi quidem veniam minus, voluptates debitis!</p>
+
+<h2 id="cap2">Capítulo 2</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga consequatur iste corporis totam doloribus nesciunt laborum nam in minima modi tenetur dolorem qui eveniet cupiditate quisquam pariatur, eaque vero tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquid quis mollitia, doloribus nulla sapiente ea quidem ullam harum iusto cum architecto consectetur numquam, nemo assumenda error non, possimus reprehenderit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae amet commodi in, nemo non quis ipsa. Totam, dolorem eaque. Tenetur rem sit quos repellat optio quod obcaecati molestias nostrum adipisci.</p>
+
+<h1 class="seletor">Seletor Personalizado CLASS</h1>
+
+<h2 class="cap1class">Capítulo 1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nobis sequi. Similique distinctio, consequatur minima fuga voluptatem eius illum blanditiis laudantium, incidunt quae, ipsam labore libero dolorum nihil consequuntur perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rerum temporibus rem? Perferendis, nobis dignissimos atque, repellendus tenetur enim ab, ducimus sit adipisci deserunt dolor facilis dolorum praesentium ullam doloribus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, tempore, nesciunt labore dicta, quas error debitis maiores laborum molestiae fugit natus corrupti cupiditate ratione aut quibusdam. Consequuntur officia possimus illo!</p>
+
+<h2 class="cap2class">Capítulo 2</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam illo incidunt aut atque nostrum quisquam hic perferendis fugit placeat facere commodi fugiat porro, cum voluptatem totam cupiditate alias et. Harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui a perspiciatis dolor. Ullam maiores ratione rerum praesentium distinctio, cum tempore ipsum dolorum animi, asperiores vero impedit eaque repellendus, odit quo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit sed corrupti numquam voluptate non illum, quo, consequuntur dolores iusto porro ea sunt accusamus necessitatibus et molestiae laborum vitae harum quisquam!</p>
+
+</body>
+</html>
