@@ -12,18 +12,46 @@
     <h1>Cadastro de pessoa física</h1>
     </thead>
     <tbody>
-    <form action="processarForm.php" method="get">
-        <label for="nome">Nome Completo:</label>
-        <input type="text" id="nome" name="nome"><br><br>
-        <label for=""> Data Nascimento:</label>
+        <form action="processarForm.php" method="get">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+
+        <label for=""> Data Nascimento:</label><br>
         <input type="date" required><br></br>
-        <label for="Nome" required> CPF:</label>
-        <input type="text" id="nome" placeholder="000.000.000-00">
-        <label for="nome"> RG/Documento:</label><br>
-        <input type="text"
-    </form>
 
+        <label for="number" required> CPF:</label><br>
+        <input type="number" id="number" placeholder="000.000.000-00"><br><br>
 
+        <label for="nome">RG/Documento:</label><br>
+        <input type="text" id="nome" placeholder="Digite seu documento"><br></br>
+
+        <label for="nome">Filiação (nome da mãe):</label><br>
+        <input type="text" id="nome" placeholder="Digite o nome completo da sua mãe" size="27"><br><br>
+
+        <label for="cep">CEP:</label><br>
+        <input type="number" id="number" placeholder="00000-000"><br><br>
+
+        <label for="name">Logradouro:</label><br>
+        <input type="text" id="nome"><br><br>
+
+        <label for="name">E-mail:</label><br>
+        <input type="email" id="email" placeholder="Digite aqui seu email"><br><br>
+
+        <label for="name">Número:</label><br>
+        <input type="text" id="nome"><br><br>
+
+        <label for="name">Bairro:</label><br>
+        <input type="text" id="nome"><br><br>
+
+        <label for="name">Complemento:</label><br>
+        <input type="text" id="nome"><br><br>
+
+        <label for="name">Cidade:</label><br>
+        <input type="text" id="nome"><br><br>
+
+        <label for="name">Estado:</label><br>
+        <input type="text" id="nome" placeholder="UF"><br><br>
+        </form>
     </tbody>
 </body>
 </html>
